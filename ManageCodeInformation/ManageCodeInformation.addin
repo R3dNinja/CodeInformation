@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command RevitAddin1</Text>
+    <Description>Some description for RevitAddin1</Description>
+    <Assembly>ManageCodeInformation.dll</Assembly>
+    <FullClassName>ManageCodeInformation.Command</FullClassName>
+    <ClientId>4ebed9ab-d77a-4a14-9244-40bbb3b4fa31</ClientId>
+    <VendorId>Kirksey</VendorId>
+    <VendorDescription>Kirksey Architecture, http://kirksey.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application RevitAddin1</Name>
+    <Assembly>ManageCodeInformation.dll</Assembly>
+    <FullClassName>ManageCodeInformation.App</FullClassName>
+    <ClientId>47f7ed95-e375-4a80-b4d9-87785c8659ed</ClientId>
+    <VendorId>Kirksey</VendorId>
+    <VendorDescription>Kirksey Architecture, http://kirksey.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
