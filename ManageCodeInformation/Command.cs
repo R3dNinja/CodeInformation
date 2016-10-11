@@ -77,7 +77,7 @@ namespace ManageCodeInformation
                 var sheetName = vs.Name;
                 if (sheetName == "STARTING VIEW")
                 {
-                    p = vs.get_Parameter("TemplateCategory");
+                    p = vs.LookupParameter("TemplateCategory");
                     setTemplateCategory(p.AsString());
                 }
             }
