@@ -66,7 +66,9 @@ namespace ManageCodeInformation
             pagemargins.Right = 0;
 
             //Load the document
-            WordDocument doc = new WordDocument(path);
+            WordDocument doc = new WordDocument();
+            doc.OpenReadOnly(path, FormatType.Docx);
+
             foreach (WSection section in doc.Sections)
             {
                 section.PageSetup.Margins = pagemargins;
